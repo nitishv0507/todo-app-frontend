@@ -1,6 +1,6 @@
 const containerEl = document.querySelector('.container');
 const input = document.querySelector('.input');
-const baseUri = "https://todo-api-nxk1.onrender.com/todo";
+const baseUri = "https://todo-api-nxk1.onrender.com/todo/";
 function createTodoList(todoData, id) {
     return `
     <div class="todoItem posts">
