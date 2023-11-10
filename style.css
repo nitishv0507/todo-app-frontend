@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Slab:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica,'Fjalla One',sans-serif,'Roboto Slab', serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin-right: 10vw;
+    margin-left: 15vw;
+    border: 4px solid red;
+    border-radius: 10px;
+    background-color: #F5F7F8;
+    outline: none;
+}
+
+h1, .form-sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vw;
+}
+
+.input {
+    width: 20%;
+    height: 3vw;
+    padding-left: 1vw;
+    font-size: 1.2vw;
+    margin-left: 18vw;
+    margin-top: 5vw;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+.btn {
+    letter-spacing: 0.1vw;
+    margin-left: 15vw;
+    width: 7vw;
+    height: 3vw;
+    font-size: 1.2vw;
+    font-weight:500;
+    background-color: #7c2ee2;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3 ease-in;
+}
+
+.btn:hover {
+    background-color: #A9A9A9;
+    color: white;
+}
+
+.todoList {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 10px;
+}
+
+.TodoItem {
+    margin-top: 5vw;
+    border: 2px solid #A9A9A9;
+    border-radius: 12px;
+    background-color: #bfd6f0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 2.5vw;
+    
+}
+
+.para {
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    font-size: 1.7vw;
+    border: none;
+    
+}
+input:focus {
+    outline: none;
+}
+  
+.options {
+    display: flex;
+    gap: 2vw; 
+    margin-top: 1.3vw; 
+}
+
+.options .bttn {
+    background-color: #7c2ee2;
+    padding: 0.5vw;
+    font-size: 1.3vw;
+    width: 5vw;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.5 ease-in;
+}
+
+.options .bttn:hover {
+    background-color: #A9A9A9;
+    color: white;
+}
